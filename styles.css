@@ -1,0 +1,22 @@
+.form{
+    display: table;
+    width:200px ;
+    height: 30px;
+}
+input{
+    height: inherit;
+    display: grid;
+    font-size: 20px;
+    text-align: right;
+}
+.square,.triangle,.circle{
+    width: max-content;
+    display:-ms-grid;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.figure-field{
+    width:1600px;
+    height: 900px;
+    display: flex;
+}
